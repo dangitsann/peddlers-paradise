@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <iframe src="/peddlers menu.pdf" width="200%" height="800"></iframe>
+        <img src="/peddlers menu.jpg" alt="Menu" className={styles.menu}></img>
       </main>
     </div>
   )
