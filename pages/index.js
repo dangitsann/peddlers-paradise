@@ -8,14 +8,20 @@ export default function Home() {
       <Head>
         <title>Peddler's Paradise</title>
         <link rel="icon" href="/favicon.ico" />
+        <center><img src="/whitelogo.png" alt="Logo" className="logo"/></center>
       </Head>
-
       <main>
-        <Header title="Welcome to my Peddler's Paradise!" />
-        <p className="description">
-          Let's get the menu up in this bish.
-        </p>
+            
+        <div className="menu">
+          <center>
+            <iframe src="/peddlers menu.pdf" width="80%" height="800px"></iframe>
+          </center>
+          
+        </div>
+           
       </main>
+
+      
 
       <Footer />
     </div>
