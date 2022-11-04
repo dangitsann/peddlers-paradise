@@ -10,19 +10,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <center><img src="/whitelogo.png" alt="Logo" className="logo"/></center>
       </Head>
+
       <main>
-            
-        <div className="menu">
-          <center>
-            <iframe src="/peddlers menu.pdf" width="80%" height="800px"></iframe>
-          </center>
-          
-        </div>
-           
+        <iframe src="/peddlers menu.pdf" width="200%" height="800"></iframe>
       </main>
-
-      
-
       <Footer />
     </div>
   )
