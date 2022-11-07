@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Peddler's Paradise</title>
+        <h1><title>Peddler's Paradise</title></h1>
         <link rel="icon" href="/favicon.ico" />
         <center><img src="/whitelogo.png" alt="Logo" className={styles.logo}/></center>
       </Head>
@@ -17,5 +17,6 @@ export default function Home() {
         <img src="/peddlers menu.jpg" alt="Menu" className={styles.menu}></img>
       </main>
     </div>
+    
   )
 }
